@@ -103,7 +103,6 @@ class Tests(unittest.TestCase):
     def test_exo2(self):
         self.assertEqual(Fraction(1, 10).__str__(), "1/10")
         self.assertEqual(Fraction(2, 4).__str__(), "1/2")
-        self.assertEqual(Date(7, 12, 1853).__str__(), "7 décembre 1853")
         self.assertTrue(Fraction(4, 8) == Fraction(4, 8))
         self.assertTrue(Fraction(1, 10) < Fraction(2, 4))
         self.assertEqual(Fraction(1, 10) + Fraction(2, 4), Fraction(1, 6))
