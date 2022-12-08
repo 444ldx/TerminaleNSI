@@ -87,7 +87,7 @@ class Fraction():
     def __simplifier(self):
         """Simplifier la fraction"""
         facteur_commun = self.__pgcd(self.num, self.denom)
-        (self.num) /= facteur_commun
+        self.num /= facteur_commun
         self.denom /= facteur_commun
         self.num, self.denom = int(self.num), int(self.denom)
 
